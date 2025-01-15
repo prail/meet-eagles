@@ -1,0 +1,12 @@
+name = "meet_eagles"
+description = "Dating web app in Ada"
+version = "0.1.0-dev"
+
+authors = ["Andrew Teesdale"]
+maintainers = ["Andrew Teesdale <andrew@f40c40.com>"]
+maintainers-logins = ["prail"]
+licenses = "custom-none"
+website = ""
+tags = ["webapp", "aws", "dating"]
+
+executables = ["meet_eagles"]
