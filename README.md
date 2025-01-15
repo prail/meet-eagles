@@ -14,6 +14,19 @@ or some other, not really sure what else.
 - Signup should be as easy as giving the app your phone number and student ID
 - Simple Tinder/Hinge like behavior for matching. (Swipe left and right to get matches)
 
+## How can to build and run this?
+
+First, you will need to install [Alire](https://alire.ada.dev/) a
+toolchain and package manager for Ada.
+
+After you've downloaded and installed `alr`,  clone the project.
+```bash
+git clone https://github.com/prail/meet-eagles
+```
+
+You'll need to `cd` into the repo and do `alr run`. This should download all
+of the necessary toolchains and dependencies as well as start the project.
+
 ## Why did I choose Ada?
 
 The reason for writing the backend in Ada is entirely resume driven,
@@ -22,8 +35,3 @@ and already have experience writing PL/SQL which is Ada-adjacent,
 so the backend is going to be written in Ada. Also, I don't think people
 expect Ada (the government specced systems dev language) to be the backend
 for a dating web-app of all things.
-
-## How can I build and run this?
-
-First, you will need to install [Alire](https://alire.ada.dev/) a
-toolchain and package manager for Ada.
