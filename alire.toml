@@ -10,3 +10,7 @@ website = ""
 tags = ["webapp", "aws", "dating"]
 
 executables = ["meet_eagles"]
+
+[[depends-on]]
+aws = "^24.0.0"
+gnatcoll = "^24.0.0"
