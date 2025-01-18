@@ -27,6 +27,9 @@ git clone https://github.com/prail/meet-eagles
 You'll need to `cd` into the repo and do `alr run`. This should download all
 of the necessary toolchains and dependencies as well as start the project.
 
+The web server will immediately start serving pages. You can type `q` to quit.
+Navigate to `https://localhost:8080` to view the page.
+
 ## Why did I choose Ada?
 
 The reason for writing the backend in Ada is entirely resume driven,
